@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #d0d0d0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body{
+    color:#edeef0;
+  }
+
+@media (max-width: 1000px) {
+    .container_news {
+      display: none !important;
+    }
+    main{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 570px) {
+    main{
+        flex-direction: column;
+    }
+    li{
+        white-space: nowrap;
+        max-width: 720px !important;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .container{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+}
+
+header{
+    background: #507299;
+    height: 50px;
+    align-items:center;
+    justify-content:left;
+    padding-left: 13%;
+    display: flex;
+}
+
+h4{
+    color: black;
+}
+
+main{
+    background: #edeef0;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    min-height: calc(100vh - 90px);
+    position: relative;
+    align-items: flex-start;
+}
+
+footer{
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #d0d0d0;
+    display: flex;
+}
+
+.list{
+    margin: 0;
+    align-items: center;
+    font-size: 15px;
+    min-height: 100%;
+
+}
+
+main .list ul li{
+    padding: 7px 0 7px 5px;
+    color: #507299;
+    list-style-type: none;
+    max-width: 158px;
+}
+
+main .list ul li:hover{
+    background: #d0d0d0;
+}
+
+main .text::selection{
+    background-color: #d0d0d0;
+    color: green;
+}
+
+.container_flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-left: 20px;
+    gap: 20px;
+
+}
+
+.container_border{
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d0d0d0;
+}
+
+.container_post{
+    background: white;
+    width: 340px;
+    padding: 10px;
+}
+
+a{
+    color: #507299;
+    text-decoration: none;
+}
+
+.text{
+    color: black;
+    font-size: 13px;
+    text-align: justify;
+}
+
+hr{
+    border-color: #d0d0d0;
+    background-color: #d0d0d0;
+    margin: 5px 0;
+}
+
+.footer_post{
+    justify-content: space-between;
+    display: flex;
+}
+
+main .container .container_post img{
+    width: 100%;
+}
+
+.container_news{
+    
+    gap:15px;
+    margin-left: 150px;
+    position: sticky;
+    top: 0px;
+}
+
+.text_news{
+    color: black;
+    font-size: 13px;
+    background: #edeef0;
+}
+
+.news{
+    background: white;
+    padding:18px 8px;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
