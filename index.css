@@ -129,10 +129,21 @@ a{
     text-align: justify;
 }
 
-hr{
-    border-color: #d0d0d0;
-    background-color: #d0d0d0;
-    margin: 5px 0;
+.hr-line {
+	margin: 10px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 3px solid #EDEEF0;
+}
+
+.hr-line-big {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+	border: none;
+	border-top: 3px solid #EDEEF0;
 }
 
 .footer_post{
